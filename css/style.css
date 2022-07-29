@@ -505,21 +505,11 @@ margin-right: 50px;
       color: var(--hover-color)
 
   }
-
-  .AAAA{
-    display: inline-block;
-    align-items: baseline;
-  }
-  
-    
-    
- .footer-connect{
-    
- }
+ 
+ 
     .footer-connect-soc{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;}
 
   .footer-connect-text{
@@ -532,14 +522,7 @@ margin-right: 50px;
     color: #FFFFFF;
   }  
     
-  
-  
-
-  
-    
-
-
-.footer-connect-soc-link{
+  .footer-connect-soc-link{
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -553,6 +536,13 @@ margin-right: 50px;
 .footer-connect-soc-link:focus {
     background-color: var(--hover-color);
     fill: #FFFFFF
+  
+
+  
+    
+
+
+
 }
 
     
