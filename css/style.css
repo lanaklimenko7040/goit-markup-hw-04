@@ -125,7 +125,7 @@ margin-right: 50px;
 .header-icon {
     display: flex;
     align-items: center;
-    fill: var(--secondary-text-color);
+    fill: currentColor;
     margin-right: 10px;
     
 }
@@ -256,6 +256,7 @@ margin-right: 50px;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
+    margin-bottom:30px;
      
    }
    
@@ -268,7 +269,7 @@ margin-right: 50px;
     text-transform: uppercase;
     color:var(--first-text-color);
     margin-bottom: 10px;
-    margin-top: 30px;
+    
 }
 
 .description-text {
@@ -422,6 +423,17 @@ margin-right: 50px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 }
+.clients-item:hover,
+.clients-item:focus{
+    border-color: var(--hover-color);
+    color:var(--hover-color)
+}
+
+.clients-link{
+    width: 170px;
+    height: 92px;
+    
+}            
 .client-soc-icon{
     display: flex;
     align-items: center;
@@ -435,6 +447,7 @@ margin-right: 50px;
     .client-soc-icon:focus {
     background-color:#FFFFFF ;
      fill: var(--hover-color);
+    
     }
 
 
@@ -449,12 +462,15 @@ margin-right: 50px;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+   } 
+.footer-wrap {
+   display: flex;
     align-items: baseline;
+    justify-content: center;
+}   
     
     
-    
-}
+
 .logo-footer{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -514,15 +530,16 @@ margin-right: 50px;
   }
   
   
+    
+ 
    .footer-connect-soc{
     display:flex;
-    align-items: baseline;
-    justify-content: center;
     gap: 10px;
-    
-}
+    margin-top: 20px;
+    align-items: baseline;
 
-  .footer-connect-text{
+}    
+    .footer-connect-text{
     font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -530,6 +547,9 @@ margin-right: 50px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    
+
+    
     
     
   }  
@@ -542,6 +562,7 @@ margin-right: 50px;
     align-items: center;
     justify-content: center;
     fill: #FFFFFF;
+    
 }
 .footer-connect-soc-link:hover,
 .footer-connect-soc-link:focus {
@@ -598,17 +619,12 @@ margin-right: 50px;
     gap: 30px; 
     
     }
-    .portfolio-item{
-    width: 370px;
-    
-    }
-
-    .portfolio-item:hover,
-    .portfolio-item:focus {
-    border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-    
+    .portfolio-link:hover,
+    .portfolio-link:focus
+     {
+        
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+     }
 
     .portfolio-title {
      font-weight: 700;
