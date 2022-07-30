@@ -120,8 +120,8 @@ align-items: center;
 }
 .header-contacts-item:not(:last-child){
 margin-right: 50px;
-
 }
+
 .header-icon {
     display: flex;
     align-items: center;
@@ -140,6 +140,7 @@ margin-right: 50px;
 .header-mail{
     display: flex;
     align-items: center;
+    flex-direction:row-reverse;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -149,11 +150,14 @@ margin-right: 50px;
  }
 .header-mail:hover,
 .header-mail:focus {
-    color: var(--hover-color)}
+ color: var(--hover-color);
+ 
+}
 
 .header-tel{
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -445,8 +449,6 @@ margin-right: 50px;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 .logo-footer{
     font-family: 'Raleway', sans-serif;
@@ -508,9 +510,12 @@ margin-right: 50px;
  
  
     .footer-connect-soc{
-    display: flex;
-    align-items: center;
-    gap: 10px;}
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+    
+}
 
   .footer-connect-text{
     font-family: Roboto, sans-serif;
@@ -520,9 +525,10 @@ margin-right: 50px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-  }  
     
-  .footer-connect-soc-link{
+    
+  }  
+   .footer-connect-soc-link{
     width: 44px;
     height: 44px;
     border-radius: 50%;
