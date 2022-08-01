@@ -425,33 +425,23 @@ margin-right: 50px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     display: flex;
+    fill:#AFB1B8;
     
 }   
 
 .clients-link:hover,
 .clients-link:focus{
-    
 border-color: var(--hover-color);
 fill: var(--hover-color);
-
 }
 
-.client-soc-icon{
-   fill: #AFB1B8;
-}    
+
+
         
-.client-soc-icon:hover,
-.client-soc-icon:focus {
-    fill: var(--hover-color);
-    
-    }
-
-
-
 
 /*---------------FOOTER--------*/
 
-.contact{
+.footer-contact{
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -461,6 +451,7 @@ fill: var(--hover-color);
    } 
 .contact.container {
    display: flex;
+   
 }   
  .logo-footer{
     font-family: 'Raleway', sans-serif;
@@ -559,7 +550,7 @@ fill: var(--hover-color);
 .footer-connect-soc-link:hover,
 .footer-connect-soc-link:focus {
     background-color: var(--hover-color);
-    fill: #FFFFFF
+   
   }
 
      /*-----------------PORTFOLIO---------*/
